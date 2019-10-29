@@ -1,6 +1,7 @@
 ## my-learning-100days
 + [Day 1](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
-
+   
+   
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
 Explicit is better than implicit.（清晰比晦涩好）    
