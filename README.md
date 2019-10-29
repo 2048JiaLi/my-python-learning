@@ -1,3 +1,6 @@
+## my-learning-100days
++ [Day 1](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
+
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
 Explicit is better than implicit.（清晰比晦涩好）    
@@ -19,5 +22,3 @@ If the implementation is hard to explain, it's a bad idea.（如果一个实现�
 If the implementation is easy to explain, it may be a good idea.（如果一个实现方案易于理解，它很有可能是一个好的方案）   
 Namespaces are one honking great idea -- let's do more of those!（命名空间非常有用，我们应当多加利用）
 
-## my-learning-100days
-+ [Day 1](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
