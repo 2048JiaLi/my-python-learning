@@ -20,4 +20,4 @@ If the implementation is easy to explain, it may be a good idea.（如果一个�
 Namespaces are one honking great idea -- let's do more of those!（命名空间非常有用，我们应当多加利用）
 
 ## my-learning-100days
-+ day1 ： python优缺点、变量命名、运算符
++ [Day 1](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
