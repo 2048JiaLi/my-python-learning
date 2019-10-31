@@ -1,7 +1,9 @@
 ## my-learning-100days
 + [Day 1](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
 + [Day 2](https://github.com/2048JiaLi/my-learning-100days/blob/master/1030-Day2.md) ： 函数定义、字符串、列表、元组、集合常用数据结构
-   
++ [Day 3](https://github.com/2048JiaLi/my-learning-100days/blob/master/1031-day3.md) ： 类的基础与进阶：创建、继承、多态
+  
+  
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
 Explicit is better than implicit.（清晰比晦涩好）    
