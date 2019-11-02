@@ -2,8 +2,8 @@
 + [**Day 1**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1029-day1.md) ： python优缺点、变量命名、运算符
 + [**Day 2**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1030-Day2.md) ： 函数定义、字符串、列表、元组、集合常用数据结构
 + [**Day 3**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1031-day3.md) ： 类的基础与进阶：创建、继承、多态
-+ [**Dat 4**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1101-day4.md) ： GUI(图形界面开发)、pygame的简单操作
-+ [**Dat 5**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1102-day5.md) ： 文件的读写操作与异常处理
++ [**Day 4**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1101-day4.md) ： GUI(图形界面开发)、pygame的简单操作
++ [**Day 5**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1102-day5.md) ： 文件的读写操作与异常处理
   
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
