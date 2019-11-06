@@ -6,7 +6,7 @@
 + [**Day 5**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1102-day5.md) ： 文件的读写操作与异常处理
 + [**Day 6**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1104-day6.md) ： 字符串正则表达式、python多进程和多线程
 + [**Day 7**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1105-day7.md) ： 网络编程入门相关，及如何发送邮件、信息等
-
++ [**Day 8**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1106-day8.md) ： 算法复杂度、常见排序及查找算法
 
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
