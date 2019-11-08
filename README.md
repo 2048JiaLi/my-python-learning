@@ -8,6 +8,8 @@
 + [**Day 7**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1105-day7.md) ： 网络编程入门相关，及如何发送邮件、信息等
 + [**Day 8**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1106-day8.md) ： 算法复杂度、常见排序及查找算法
 + [**Day 9**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1107-day9.md) ： 常用算法思想：穷举、贪心、分治、回溯、动态规划等，函数及装饰器
++ [**Day 10**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1108-day10.md) ： 面向对象知识进阶、垃圾回收、元编程和元类、生成器方法
+
 
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
