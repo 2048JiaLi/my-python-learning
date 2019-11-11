@@ -11,7 +11,7 @@
 + [**Day 10**](https://github.com/2048JiaLi/my-learning-100days/blob/master/1108-day10.md) ： 面向对象知识进阶、垃圾回收、元编程和元类、生成器方法
 + [**Day 11**](./1109-day11.md) ： 并发编程的三种方法：多线程、多进程和异步I/O
 + [**Day 12**](./1110-day12.md) ： 前段web开发简介，一本入门书籍
-
++ [**Day 13**](./1111-day13.md) ： OS简介，Linux命令及文件系统
 
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
