@@ -23,6 +23,9 @@
 + [**Day 21**](./1122-day21.md) ： Scrapy入门
 + [**Day 22**](./1125-day22.md) ： 机器学习基础
 
++ [**多线程学习**](./python多线程学习/readme.md)   
+Nov. 28,2019
+
 > 注： Linux系统还有许多内容可以学习，这里并没有给出全部。[玩转Linux](https://github.com/jackfrued/Python-100-Days/blob/master/Day31-35/31-35.%E7%8E%A9%E8%BD%ACLinux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
 
 [Django](https://github.com/jackfrued/Python-100-Days/tree/master/Day41-55)   
