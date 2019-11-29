@@ -1,18 +1,24 @@
 ## my-learning-100days
+- #### [多线程学习](./python多线程学习/readme.md): **doing**
+   Nov. 28,2019
+   > **未完成**
+
+- #### [日志处理模块logging](./日志处理logging.md)
+   > **未完成**   
+
+- #### [python weekly 邮件](./PythonWeekly/readme.md)
+
 - #### [jackfrued/Python-100-Days的学习](day1-22\readme.md)
    对python的总体了解
 
-- #### [多线程学习](./python多线程学习/readme.md)   
-   Nov. 28,2019
-
 - #### [python装饰器完全解读](https://github.com/2048JiaLi/PY3_privacy/blob/master/Python%E9%9D%A2%E8%AF%95/%E9%A2%98%E7%9B%AE%E4%B8%8E%E7%AD%94%E6%A1%88/python%E8%A3%85%E9%A5%B0%E5%99%A8%E7%9A%84%E7%90%86%E8%A7%A3.md)
+   Nov. 29,2019
 
 - #### [Django](https://github.com/jackfrued/Python-100-Days/tree/master/Day41-55)   
 
 - #### [PEP 8参考](./PEP8.md)
 
 - #### [python参考书籍](./python参考书籍.md)
-
 
 ## Zen of Python（Python之禅）
 Beautiful is better than ugly. （优美比丑陋好）   
