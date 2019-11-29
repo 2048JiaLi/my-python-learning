@@ -5,4 +5,5 @@
 > **未完成**
 
 - [Tips for Selecting Columns in a DataFrame](./2019-11-29/在DataFrame中选择列.md)
-> **已未完成**
+
+- [python如何写类型提示](./2019-11-29/python如何写类型提示.md)

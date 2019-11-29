@@ -36,7 +36,7 @@
 > 3023行，31列。
 
 读数据
-```
+```python
 import pandas as pd
 import numpy as np
 
@@ -46,11 +46,11 @@ df = pd.read_csv(
 ```
 
 有时候，根据索引来记住每个列名及其所在的位置是很困难的。下面是一个简单的列表理解，用于构建包含所有列及其索引的引用列表。
-```
+```python
 col_mapping = [f"{c[0]}:{c[1]}" for c in enumerate(df.columns)]
 ```
 结果
-```
+```python
 ['0:X',
 '1:Y',
 '2:Unique Squirrel ID',
@@ -64,11 +64,11 @@ col_mapping = [f"{c[0]}:{c[1]}" for c in enumerate(df.columns)]
 ```
 
 在某些情况下，如果你想重命名一堆列，你可以使用字典来创建数据的字典视图:
-```
+```python
 col_mapping_dict = {c[0]:c[1] for c in enumerate(df.columns)}
 ```
 结果
-```
+```python
 {0: 'X',
 1: 'Y',
 2: 'Unique Squirrel ID',
@@ -87,13 +87,13 @@ col_mapping_dict = {c[0]:c[1] for c in enumerate(df.columns)}
 一个简单的技巧是复制excel中的所有列，并使用`pd.read_clipboard()`来构建一个小的`DataFrame`，并将这些列转换成一个字典。如果需要，也可以手动输入新名称。
 
 下面是一个快速示例
-```
+```python
 df_cols = pd.read_clipboard()
 col_mapping = {c[1]:'' for c in enumerate(df_cols.columns)}
 ```
 
 它创建了一个相对容易填充新名称的字典:
-```
+```python
 {'X': '',
 'Y': '',
 'Unique': '',
@@ -106,7 +106,6 @@ col_mapping = {c[1]:'' for c in enumerate(df_cols.columns)}
 'Precincts': ''}
 ```
 
-
 ### Using iloc
 panda的`iloc`是用于基于整数位置的索引。
 新用户可能会有点困惑，因为`iloc`和`loc`可以使用一个布尔数组，这将导致更强大的索引。由于这两个函数都可以使用一个布尔数组作为输入，所以有时这些函数会产生相同的输出。然而，本文只关注`iloc`列的选择。
@@ -116,11 +115,11 @@ panda的`iloc`是用于基于整数位置的索引。
 ![](https://pbpython.com/images/iloc.png)
 
 例如，如果您想查看所有行的数据的Unique Squirrel ID列:
-```
+```python
 df.iloc[:, 2]
 ```
 
-```
+```python
 0       37F-PM-1014-03
 1       37E-PM-1006-03
 2        2E-AM-1010-03
@@ -136,14 +135,14 @@ Name: Unique Squirrel ID, Length: 3023, dtype: object
 ```
 
 如果想查看X和Y的位置以及ID，你可以传入一个整数列表`[0,1,2]`:
-```
+```python
 df.iloc[:, [0,1,2]]
 
 # 或者
 df.iloc[:, 0:3]
 ```
-```
-X	Y	Unique Squirrel ID
+```python
+        X	        Y	  Unique Squirrel ID
 0	-73.956134	40.794082	37F-PM-1014-03
 1	-73.957044	40.794851	37E-PM-1006-03
 2	-73.976831	40.766718	2E-AM-1010-03
@@ -161,17 +160,18 @@ X	Y	Unique Squirrel ID
 `r_`会 Translate slice objects to concatenation along the first axis
 
 下面是一个稍微复杂一点的例子，展示了如何在单个列表项和切片范围的组合上工作:
-```
+```python
 np.r_[0:3,15:19,24,25]
 
 >>> array([ 0,  1,  2, 15, 16, 17, 18, 24, 25])
 ```
 
 与`iloc`结合
-```
+```python
 df.iloc[:, np.r_[0:3,15:19,24,25]]
 ```
-```
+
+```python
 X	Y	Unique Squirrel ID	Running	Chasing	Climbing	Eating	Tail flags	Tail twitches
 0	-73.956134	40.794082	37F-PM-1014-03	False	False	False	False	False	False
 1	-73.957044	40.794851	37E-PM-1006-03	True	False	False	False	False	False
@@ -185,7 +185,7 @@ X	Y	Unique Squirrel ID	Running	Chasing	Climbing	Eating	Tail flags	Tail twitches
 ```
 
 在使用`read_csv`时也可以应用该技巧：
-```
+```python
 df_2 = pd.read_csv(
     'https://data.cityofnewyork.us/api/views/vfnx-vebw/rows.csv?accessType=DOWNLOAD&bom=true&format=true',
     usecols=np.r_[1,2,5:8,15:30],
@@ -193,7 +193,7 @@ df_2 = pd.read_csv(
 ```
 
 关于`np.r_`的最后一点意见是有一个可选的步骤参数。在这个例子中，我们可以指定这个列表将增加2:
-```
+```python
 np.r_[2:10:2]
 
 >>> array([2, 4, 6, 8])
@@ -208,12 +208,12 @@ np.r_[2:10:2]
 在本例中，我们可以像使用panda数据的任何其他列一样对列索引使用`str`访问器。这将生成`iloc`所需的布尔数组。
 
 如果我们想看看哪些列包含单词“run”:
-```
+```python
 run_cols = df.columns.str.contains('run', case=False)
 print(run_cols)
 ```
 
-```
+```python
 array([False, False, False, False, False, False, False, False, False,
     False, False, False, False, False, False,  True, False, False,
     False, False, False, False, False, False, False, False, False,
@@ -221,7 +221,7 @@ array([False, False, False, False, False, False, False, False, False,
 ```
 然后`df.iloc[:, run_cols].head()`   
 
-```
+```python
 Running	Runs from
 0	False	False
 1	True	True
@@ -231,17 +231,17 @@ Running	Runs from
 ```
 
 在实际操作中，很多人会使用`lambda`:
-```
+```python
 df.iloc[:, lambda df:df.columns.str.contains('run', case=False)]
 ```
 
 使用`str`函数的好处是，可以对潜在的过滤器选项进行完善。例如，如果我们希望名称中包含“district”、“district”或“boundaries”的所有列:
-```
+```python
 df.iloc[:, lambda df: df.columns.str.contains('district|precinct|boundaries',
                                               case=False)].head()
 ```
 
-```
+```python
 	Community Districts	Borough Boundaries	City Council Districts	Police Precincts
 0	19	4	19	13
 1	19	4	19	13
