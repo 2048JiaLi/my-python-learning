@@ -1,12 +1,14 @@
 ## my-learning-100days
-- #### [多线程学习](./python多线程学习/readme.md): **doing**
-   Nov. 28,2019
-   > **未完成**
 
 - #### [日志处理模块logging](./日志处理logging.md)
    > **未完成**   
 
 - #### [python weekly 邮件](./PythonWeekly/readme.md)
+
+- #### [学习资源](https://morvanzhou.github.io/)
+
+- #### [多线程学习](./python多线程学习/readme.md): **doing**
+   Nov. 28,2019
 
 - #### [jackfrued/Python-100-Days的学习](day1-22\readme.md)
    对python的总体了解
