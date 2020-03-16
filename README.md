@@ -21,6 +21,8 @@
 
 - #### [PEP 8参考](./PEP8.md)
 
+- #### [如何写一个好的python函数](./什么是一个好的python函数.md)
+
 - #### [python参考书籍](./python参考书籍.md)
 
 ## Zen of Python（Python之禅）
